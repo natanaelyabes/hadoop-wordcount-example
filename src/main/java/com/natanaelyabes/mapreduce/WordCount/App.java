@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.StringTokenizer;
 
 import org.apache.hadoop.conf.Configuration;
-import org.apache.hadoop.examples.WordCount;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
@@ -103,7 +102,7 @@ public class App {
 		}
 		
 		// Assign each class for each MapReduce job
-		Job job = Job.getInstance(conf, "word count");
+		Job job = Job.getInstance(conf, "wordcount");
 		job.setJarByClass(App.class);
 		job.setMapperClass(Map.class);
 		job.setCombinerClass(Reduce.class);

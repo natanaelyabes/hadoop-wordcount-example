@@ -20,7 +20,7 @@
             <configuration>
               <transformers>
                 <transformer>
-                  <mainClass>com.natanaelyabes.mapreduce.WordCount</mainClass>
+                  <mainClass>com.natanaelyabes.mapreduce.WordCount.App</mainClass>
                 </transformer>
               </transformers>
             </configuration>

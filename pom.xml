@@ -62,7 +62,7 @@
 							<transformers>
 								<transformer
 									implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-									<mainClass>com.natanaelyabes.mapreduce.WordCount</mainClass>
+									<mainClass>com.natanaelyabes.mapreduce.WordCount.App</mainClass>
 								</transformer>
 							</transformers>
 						</configuration>
