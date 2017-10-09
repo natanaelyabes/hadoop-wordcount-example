@@ -104,7 +104,7 @@ public class App {
 		
 		// Assign each class for each MapReduce job
 		Job job = Job.getInstance(conf, "word count");
-		job.setJarByClass(WordCount.class);
+		job.setJarByClass(App.class);
 		job.setMapperClass(Map.class);
 		job.setCombinerClass(Reduce.class);
 		job.setReducerClass(Reduce.class);
